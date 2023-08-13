@@ -65,7 +65,10 @@ def main():
             robot1.save_picture() 
         #if see dog take picture    
         if red >135 < 140 and green >130<135 and blue > 125<130:       
-            robot1.save_picture() 
+            robot1.save_picture()
+        #if see frog take picture    
+        if red >120 < 130 and green >120<130 and blue > 130<140:       
+            robot1.save_picture()
                                                  
         if robot1.front_obstacles_detected():
             robot1.move_backward()
